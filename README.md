@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# React Portfolio
+
+## Table of content
+- [Description](#description)
+- [Pictures](#pictures)
+- [Contribution](#contribution)
+- [Contact](#contact)
+- [Instruction](#instruction)
+
+# Description
+This is a a place to share my projects not only if I'm applying for jobs or working as a freelancer but also so that I can share my work with fellow developers and collaborate on future projects.
+
+
+# Pictures
+![  ](./src/Assets/Screen%20Shot%202022-09-07%20at%2010.59.00%20PM.png)
+# Contribution
+[Noor Ridha](https://github.com/Nridha0)
+
+# Contact
+for more info [Ridha.noor](ridha.noor@yahoo.com)
+
+# Instruction
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
