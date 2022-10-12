@@ -1,7 +1,9 @@
 import React, { useState }from 'react'
 import Logo from "../Assets/logo.png"
 import { Link } from 'react-scroll';
-import {FaBars, FaTimes} from "react-icons/fa"
+// import {HiOutlineMail} from 'react-icons/hi'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
+// import {BsFillPersonaLinesFills} from 'react-icons/bs'
 
 
 
@@ -21,7 +23,7 @@ function Nav() {
     },
     {
       id: 3,
-      link: "resume",
+      link: "work",
     },
     {
       id: 4,
@@ -75,6 +77,36 @@ function Nav() {
         ))}
       </ul>
     )}
+    <div className="felx fixed flex-col top-[40%] left-0"> 
+    <ul>
+      <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300'>
+        <a className='flex justify-between items-center w-full text-gray-400'
+        href="/https://github.com/Nridha0">
+          GitHub <FaGithub size={30} />
+        </a>
+      </li>
+      <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300'>
+        <a className='flex justify-between items-center w-full text-gray-400'
+        href="/https://www.linkedin.com/in/noor-ridha-553ba9240/">
+          LinkedIn <FaLinkedin size={30} />
+        </a>
+      </li>
+      {/* <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300'>
+        <a className='flex justify-between items-center w-full text-gray-400'
+        href="/">
+          Email <HiOutlineMail size={30} />
+        </a>
+      </li>
+      <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300'>
+        <a className='flex justify-between items-center w-full text-gray-400'
+        href="/">
+          Resume <BsFillPersonaLinesFills size={30} />
+        </a>
+      </li> */}
+   
+    </ul>
+
+    </div>
   </div>
 );
 };
